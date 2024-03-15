@@ -38,7 +38,6 @@ def convertToAscii(img, saveas, scale):
 def main():
     print("Welcome to Quang's Image to Text program!")
     image = input("\tInput image path: ")
-    type = input("\tInput image type: ")
     saveas = input("\tWhere do you want your text file to be saved?: ")
     scale = input("\tScale of image: ")
     convertToAscii(image, type, saveas, scale)
