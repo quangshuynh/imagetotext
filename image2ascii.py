@@ -40,8 +40,8 @@ def main():
     image = input("\tInput image path: ")
     saveas = input("\tWhere do you want your text file to be saved?: ")
     scale = input("\tScale of image: ")
-    convertToAscii(image, type, saveas, scale)
-    print("Done!")
+    convertToAscii(image, saveas, scale)
+    print("\tDone! Text file saved in " + saveas)
 
 if __name__ == "__main__":
     main()
